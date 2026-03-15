@@ -61,8 +61,8 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
-# Large Data Files (Uncomment if needed, or put in data/ folder and ignore)
-# *.csv
-# *.parquet
-# *.jsonl
-# data/
+# Large Data Files
+artifacts/fine_tuned_model/checkpoint-*/
+artifacts/fine_tuned_model/adapter_model.safetensors
+*.pt
+*.safetensors
